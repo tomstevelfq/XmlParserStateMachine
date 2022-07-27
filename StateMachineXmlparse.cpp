@@ -441,7 +441,6 @@ void execute(string& s,csiter& pos){
     process_over:
     cout<<"execute over"<<endl;
 }
-
 int main(){
     ifstream ifs("C:\\Users\\tomst\\Desktop\\xml2\\in.xml");
     ifs.unsetf(ios::skipws);
